@@ -4,27 +4,33 @@ import './Certifications.css';
 const Certifications = () => {
     const certs = [
         {
-            name: "AWS Certified Solutions Architect – Associate",
-            issuer: "Amazon Web Services",
-            date: "2021",
+            name: "HashiCorp Certified: Terraform Associate",
+            issuer: "HashiCorp",
+            date: "Mar 2025",
             icon: <Award size={40} className="cert-icon-svg" />
         },
         {
             name: "AWS Certified Developer – Associate",
             issuer: "Amazon Web Services",
-            date: "2020",
+            date: "Feb 2025",
             icon: <Award size={40} className="cert-icon-svg" />
         },
         {
-            name: "HashiCorp Certified: Terraform Associate",
-            issuer: "HashiCorp",
-            date: "2022",
-            icon: <Award size={40} className="cert-icon-svg" />
-        },
-        {
-            name: "AWS Certified AI Practitioner (AIF-C01)",
+            name: "AWS Certified SysOps Administrator – Associate",
             issuer: "Amazon Web Services",
-            date: "In Progress",
+            date: "Mar 2024",
+            icon: <Award size={40} className="cert-icon-svg" />
+        },
+        {
+            name: "AWS Certified Solutions Architect – Associate",
+            issuer: "Amazon Web Services",
+            date: "Feb 2021",
+            icon: <Award size={40} className="cert-icon-svg" />
+        },
+        {
+            name: "AWS Certified Cloud Practitioner",
+            issuer: "Amazon Web Services",
+            date: "Mar 2021",
             icon: <Award size={40} className="cert-icon-svg" />
         }
     ];

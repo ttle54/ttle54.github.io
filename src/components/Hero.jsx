@@ -1,4 +1,4 @@
-import { Github, Linkedin, Cloud, Terminal, Cpu } from 'lucide-react';
+import { Github, Linkedin, Cloud, Terminal, Cpu, FileText } from 'lucide-react';
 import { motion } from 'framer-motion';
 import './Hero.css';
 
@@ -36,10 +36,13 @@ const Hero = () => {
                     <motion.h1 variants={itemVariants} className="hero-title">Tony Le</motion.h1>
                     <motion.h2 variants={itemVariants} className="hero-role text-gradient">Cloud Engineer</motion.h2>
                     <motion.p variants={itemVariants} className="hero-desc">
-                        Empowering scalable, secure infrastructure with 5+ years specializing in AWS, Terraform, automation, and expanding into Generative AI.
+                        Empowering scalable, secure infrastructure with 7+ years specializing in AWS, Terraform, automation, and expanding into Generative AI.
                     </motion.p>
                     <motion.div variants={itemVariants} className="hero-cta">
                         <a href="#contact" className="btn btn-primary">Hire Me</a>
+                        <a href="/Tony_Le_Resume.pdf" target="_blank" rel="noreferrer" className="btn btn-outline btn-icon">
+                            <FileText size={18} /> Resume
+                        </a>
                         <a href="https://github.com/tonyle" target="_blank" rel="noreferrer" className="btn btn-outline btn-icon">
                             <Github size={18} /> GitHub
                         </a>

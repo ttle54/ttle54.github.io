@@ -12,14 +12,13 @@ import './Skills.css';
 
 const Skills = () => {
     const skillData = [
-        { name: 'AWS', level: 95 },
-        { name: 'Terraform', level: 90 },
-        { name: 'CI/CD (Jenkins/GH)', level: 85 },
-        { name: 'Linux/Bash', level: 85 },
-        { name: 'Ansible', level: 80 },
-        { name: 'Splunk/Dynatrace', level: 75 },
-        { name: 'Docker', level: 80 },
-        { name: 'GenAI (AIF-C01)', level: 70 },
+        { name: 'AWS Cloud Services', level: 95 },
+        { name: 'Terraform / CloudFormation', level: 95 },
+        { name: 'CI/CD (Jenkins/GitLab)', level: 90 },
+        { name: 'Ansible / Docker', level: 85 },
+        { name: 'Security (IAM, WAF)', level: 85 },
+        { name: 'Splunk / CloudWatch', level: 80 },
+        { name: 'Networking (Transit GW, ALB/NLB)', level: 80 },
     ];
 
     const customTooltip = ({ active, payload, label }) => {
@@ -60,8 +59,8 @@ const Skills = () => {
                                 type="category"
                                 axisLine={false}
                                 tickLine={false}
-                                tick={{ fill: 'var(--text-secondary)', fontSize: 14 }}
-                                width={150}
+                                tick={{ fill: 'var(--text-secondary)', fontSize: 13 }}
+                                width={180}
                             />
                             <Tooltip cursor={{ fill: 'rgba(255,255,255,0.05)' }} content={customTooltip} />
                             <Bar dataKey="level" radius={[0, 4, 4, 0]} barSize={20}>

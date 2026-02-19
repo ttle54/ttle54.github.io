@@ -5,19 +5,27 @@ import './Experience.css';
 const Experience = () => {
     const experiences = [
         {
-            role: "Senior Cloud Engineer",
-            company: "Tech Corp",
-            duration: "2021 - Present",
-            description: "Architected and maintained highly available AWS infrastructure using Terraform. Improved deployment times by 40% through advanced CI/CD pipelines with Jenkins and GitHub Actions.",
-            tech: ["AWS", "Terraform", "Jenkins", "Python"],
+            role: "Cloud Engineer",
+            company: "CGI Inc",
+            duration: "Oct 2024 - Present",
+            description: "Automated AWS GovCloud infrastructure using Terraform and Ansible, cutting provisioning time by 50%. Administered and automated AWS environments (EKS, ECS, API Gateway, CloudTrail), achieving 99.99% uptime.",
+            tech: ["AWS GovCloud", "Terraform", "Jenkins", "EKS", "Ansible"],
             logo: <Building2 className="company-logo" size={24} />
         },
         {
             role: "Cloud Engineer",
-            company: "Innovate Ltd",
-            duration: "2018 - 2021",
-            description: "Migrated legacy on-premise applications to AWS EC2 and serverless architecture. Implemented comprehensive infrastructure monitoring using Splunk and Dynatrace.",
-            tech: ["AWS", "Ansible", "Splunk", "Docker"],
+            company: "Kingstone Insurance Company",
+            duration: "Mar 2024 - Oct 2024",
+            description: "Led Tier 3 cloud operations for 200+ production workloads. Engineered microservices migration to AWS EKS using Kubernetes and Helm. Orchestrated enterprise-wide Disaster Recovery strategy leveraging AWS DRS.",
+            tech: ["AWS EKS", "Terraform", "Kubernetes", "Splunk", "AWS DRS"],
+            logo: <Building2 className="company-logo" size={24} />
+        },
+        {
+            role: "Cloud Engineer",
+            company: "Patterson-UTI Management Services",
+            duration: "May 2021 - Nov 2023",
+            description: "Architected multi-region AWS infrastructure using Terraform and CloudFormation, enabling high availability. Delivered Tier 3 support for 150+ AWS-hosted enterprise systems.",
+            tech: ["AWS", "Terraform", "CloudFormation", "CloudWatch", "Splunk"],
             logo: <Building2 className="company-logo" size={24} />
         }
     ];

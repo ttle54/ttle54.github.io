@@ -48,7 +48,7 @@ const About = () => {
                         transition={{ duration: 0.6, type: "spring", delay: 0.2 }}
                     >
                         <div className="stat-item">
-                            <span className="stat-number text-gradient">5+</span>
+                            <span className="stat-number text-gradient">7+</span>
                             <span className="stat-label">Years of<br />Experience</span>
                         </div>
                         <div className="stat-item">
@@ -56,8 +56,8 @@ const About = () => {
                             <span className="stat-label">Cloud<br />Projects</span>
                         </div>
                         <div className="stat-item">
-                            <span className="stat-number text-gradient">3</span>
-                            <span className="stat-label">Core<br />Certifications</span>
+                            <span className="stat-number text-gradient">5</span>
+                            <span className="stat-label">Cloud & IaC<br />Certifications</span>
                         </div>
                     </motion.div>
                 </div>
