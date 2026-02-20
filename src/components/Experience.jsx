@@ -83,7 +83,7 @@ const Experience = () => {
                                 </div>
 
                                 <div className="timeline-content glass-panel hover-glow">
-                                    <span className="timeline-date text-gradient">{exp.duration}</span>
+                                    <span className="timeline-date">{exp.duration}</span>
                                     <div className="timeline-header">
                                         <div className="icon-wrapper glass-icon">
                                             {exp.logo}
