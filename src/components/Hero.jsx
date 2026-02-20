@@ -55,8 +55,8 @@ const Hero = () => {
                                         <span className="btn-text">Hire Me</span>
                                         <div className="btn-glow-layer"></div>
                                     </a>
-                                    <a href="/Tony_Le_Resume.pdf" target="_blank" rel="noreferrer" className="btn btn-outline btn-icon">
-                                        <FileText size={18} /> Resume
+                                    <a href="./Tony_Le_Resume.pdf" target="_blank" rel="noreferrer" className="btn btn-outline btn-icon">
+                                        <FileText className="icon" size={20} /> Resume
                                     </a>
                                 </div>
                                 <div className="hero-socials">
@@ -87,7 +87,7 @@ const Hero = () => {
                         <div className="icon-badge icon-cpu"><Cpu size={32} /></div>
                     </div>
                     <div className="hero-image-placeholder">
-                        <img src="/profile.jpg" alt="Tony Le" className="profile-img" />
+                        <img src="./profile.jpg" alt="Tony Le" className="profile-img" />
                     </div>
                 </motion.div>
             </div>
