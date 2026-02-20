@@ -44,9 +44,9 @@ const Hero = () => {
                         <div className="hero-text-card glass-panel">
                             <motion.p variants={itemVariants} className="hero-subtitle">Hello, I'm</motion.p>
                             <motion.h1 variants={itemVariants} className="hero-title">Tony Le</motion.h1>
-                            <motion.h2 variants={itemVariants} className="hero-role text-gradient">Cloud Engineer</motion.h2>
+                            <motion.h2 variants={itemVariants} className="hero-role text-gradient">DevOps Engineer and upcoming AI Engineer</motion.h2>
                             <motion.p variants={itemVariants} className="hero-desc">
-                                Empowering scalable, secure infrastructure with 7+ years specializing in AWS, Terraform, automation, and expanding into Generative AI.
+                                Empowering scalable, secure infrastructure with 7+ years specializing in AWS, Terraform, automation, and expanding into Generative and Agentic AI.
                             </motion.p>
 
                             <motion.div variants={itemVariants} className="hero-cta-group">
